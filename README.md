@@ -27,9 +27,11 @@ All the backbone networks were changed in order to achieve a better inference ti
 Both configurations were tested using a Tesla P100 GPU, on Google Colab. The test dataset is the campus one from the original [repo](https://github.com/zju3dv/mvpose).
 
 ## Citation
-``` @article{dong2019fast,
+```
+@article{dong2019fast,
   title={Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views},
   author={Dong, Junting and Jiang, Wen and Huang, Qixing and Bao, Hujun and Zhou, Xiaowei},
   journal={CVPR},
   year={2019}
-} ```
+}
+```
