@@ -1,0 +1,7 @@
+demo.py line 35:info_dicts = numpify( imgs ) -->m_utils.evaluate
+demo.py line 38:model.dataset = MemDataset --> m_utils.mem_dataset --> backend.CamStyle.reid.utils.data.transforms
+demo.py line 62:test_model = MultiEstimator --> src.models.estimate3d
+demo.py line 96:test_loader = DataLoader(test_dataset, batch_size=1, pin_memory=True, num_workers=6, shuffle=False) --> torch.utils.data
+demo.py line 93:test_dataset = BaseDataset ( dataset_path, test_range ) --> src.m_utils.base_dataset
+
+demo.py line 49:poses3d = model.predict --> src.models.estimate3d.predict line 41 --> backend\estimator_2d.py line 25  bbox_result = self.bbox_detector.detect --> backend.light_head_rcnn.person_detector  --> backend.light_head_rcnn.network_desp(aicisa se face inferenta dupa ROI)

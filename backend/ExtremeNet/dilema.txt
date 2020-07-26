@@ -1,0 +1,11 @@
+Buna ziua! Am o mare dilema
+Paperul meu principal e pe tema 3D human pose estimation, 
+dar toata inferenta pentru 3D, din 2D nu are legatura cu retele neuronale,
+e doar geometrie si concepte matematice, si nu prea am cum sa modific acolo lucruri
+
+Dar foloseste 2 retele de backbone, una de object detection si una de 2D pose estimation.
+Am o idee cum sa imbunatatesc reteaua de object detection, schimband-o cu o retea ExtremeNet,
+si peste aceasta sa adaug un layer de center pooling propus in alt paper
+
+Dilema mea e daca se merita sa ma concentrez pe reteaua de backbone, in cazul in care desi rezultatele 
+ar fi mult mai bune la object detection, intregul proces de 3d pose estimation nu ar avea o imbunatatire prea mare

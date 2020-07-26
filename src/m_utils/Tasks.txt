@@ -1,0 +1,2 @@
+fa pathuri noi pt debugging(sper ca iti amintesti ce vreau sa zic)
+pune printuri de shape-uri pt tensori si roaga-te sa le afiseze in consola
